@@ -1,6 +1,7 @@
 export const swirlup = {
   name: "SwirlUp",
   tagline: "Your vibe. Your circle. Your rules.",
+  promise: "A social app where your feed follows your mood, your chats stay private, and you decide who sees what.",
   packageName: "com.novyex.swirlup",
   platform: "Android",
   // TODO: fill in before publishing the policy to a store or API provider.
@@ -9,39 +10,39 @@ export const swirlup = {
   policyEffective: "13 November 2026",
   klipySite: "https://klipy.com",
   firebasePrivacy: "https://firebase.google.com/support/privacy",
-  features: [
-    { title: "Posts, Shouts and Sizzles", points: [
-      "Posts: photos with captions.",
-      "Shouts: short text posts, like tweets. Shout straight from a news article.",
-      "Sizzles: short vertical videos, like reels.",
-      "Stories, likes, comments, follows, and private accounts that require follow approval.",
-    ] },
-    { title: "Mood-based feeds", points: [
-      "Pick a mood, such as \"Hindi songs to vibe on\", or create your own in Mood Studio.",
-      "Ranking runs entirely on your phone from a local interest profile that is never uploaded.",
-    ] },
-    { title: "News, built in", points: [
-      "A news tab built on RSS with an in-app reader.",
-      "Turn any article into a Shout in a tap.",
-    ] },
-    { title: "Private by design", points: [
-      "End-to-end encrypted chats using the Signal-style X3DH and Double Ratchet protocol (X25519, XChaCha20-Poly1305). Media uses streaming encryption.",
-      "Messages are deleted from the server once delivered, and undelivered ones after 30 days. Chat history lives only on your phone, in an encrypted database (SQLCipher).",
-      "Safety numbers and QR verification let you confirm who you are talking to.",
-      "One account on up to 5 linked phones. Each phone has its own keys, certified by an account key, and is linked by QR with a 6-digit pairing code.",
-      "Peer-to-peer voice and video calls over WebRTC, with signed DTLS fingerprints so the server cannot intercept a call.",
-      "No tracking or ads profile. Push notifications carry no message content.",
-      "Private friend suggestions: contact matching uses k-anonymous hash prefixes, so phone numbers are never uploaded.",
-      "GIF search goes through SwirlUp's own server, so the GIF provider never sees who searched or their IP. A chosen GIF is sent as an encrypted attachment.",
-    ] },
-    { title: "Creation tools, all on your phone", points: [
-      "Image editor with filters and adjustments.",
-      "Sizzle editor: trim, speed, filters, text, and music from your phone, mixed and rendered to 9:16 video.",
-      "\"Use this sound\" on any Sizzle starts a new one with its audio.",
-      "Built-in PDF viewer.",
-    ] },
-    { title: "Make it yours", points: [
-      "Material You and One UI inspired design with custom themes, accent colours, fonts, chat wallpapers and smooth animations.",
-    ] },
+  // Set when a store listing or APK exists.
+  downloadUrl: "" as string,
+  why: [
+    "Most social apps are built to hold your attention and learn everything about you, then sell that to advertisers. The feed decides how you feel. Your DMs can be read by the company. Your actual circle gets drowned out by strangers and algorithms.",
+    "SwirlUp is a social app for Gen Z that hands the power back. Your feed is shaped by your mood and your taste, and what it learns about you stays on your phone. Your conversations are truly private. You control who sees what.",
+  ],
+  different: [
+    { title: "Mood-first feeds", text: "Choose how you want to feel, like \"Hindi songs to vibe on\", \"late-night calm\" or \"hype\", or build your own mood. Personalisation lives on your phone and is never uploaded or sold." },
+    { title: "Truly private chats and calls", text: "Only you and your friend can read your messages and media. Delivered messages are wiped from our server and your history lives on your phone. Verify a contact with a QR code. Voice and video calls go phone to phone." },
+    { title: "No ads profile, no tracking", text: "We don't build a profile of you to sell ads. Notifications never contain your message." },
+    { title: "Friend suggestions that respect your contacts", text: "Find people you know without uploading your contact list." },
+    { title: "One account, up to 5 phones", text: "Each phone has its own keys. Link a new phone by scanning a code." },
+    { title: "Private GIF search", text: "The GIF service never learns who you are. Search for a GIF, send it, and keep it between you and your friend." },
+  ],
+  express: [
+    { title: "Posts", text: "Share photos with a caption. Simple and clean." },
+    { title: "Shouts", text: "Quick thoughts in a few words. Spotted something in the news? Shout about it straight from the article." },
+    { title: "Sizzles", text: "Short vertical videos with a full editor: trim, change speed, add filters and text, and drop in your own music. Tap \"Use this sound\" on any Sizzle to remix it." },
+  ],
+  extras: [
+    { title: "Make it yours", text: "Custom themes, accent colours, fonts and chat wallpapers, wrapped in smooth, Material You-style motion." },
+    { title: "News, your way", text: "A built-in news feed with an in-app reader, so you can catch up and Shout about it without leaving SwirlUp." },
+    { title: "Create on your phone", text: "An image editor with filters and adjustments, a Sizzle editor, and a built-in PDF viewer." },
+  ],
+  protect: [
+    "Message content is end-to-end encrypted, so only you and the person you are talking to can read it.",
+    "Delivered messages are deleted from our server. Chat history is kept in an encrypted database on your phone.",
+    "Our server does briefly see message metadata, such as who a message is for and when it was sent. The privacy policy spells out exactly what we store.",
+  ],
+  faq: [
+    { q: "Can SwirlUp read my messages?", a: "No. Message content is end-to-end encrypted, so only you and the person you are chatting with can read it." },
+    { q: "Do you sell my data or track me for ads?", a: "No. We don't build an advertising profile of you, and your feed personalisation stays on your phone." },
+    { q: "What data do you keep?", a: "A small amount, such as your account email, public profile and public posts, and brief message metadata. The full list is in the privacy policy." },
+    { q: "Is SwirlUp only on Android?", a: "For now, yes. SwirlUp is coming first to Android." },
   ],
 };
