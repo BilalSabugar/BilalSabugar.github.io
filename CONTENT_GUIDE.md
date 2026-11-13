@@ -42,7 +42,7 @@ The enquiry form prepares a message on the page, then offers equal options to op
 
 ## Verify and deploy
 
-Run `npm run build`, then `node scripts/check-export.mjs`. For a Pages base-path build, set GITHUB_ACTIONS=true and GITHUB_REPOSITORY=BilalSabugar/portfolio, build, then run `node scripts/check-export.mjs /portfolio`.
+Run `npm run build`, then `node scripts/check-export.mjs`. For a Pages base-path build, set GITHUB_ACTIONS=true and GITHUB_REPOSITORY=BilalSabugar/BilalSabugar.github.io, build, then run `node scripts/check-export.mjs /portfolio`.
 
 Check native links, work filters/search, exhibit tabs, mobile menu/Escape, a case study, research source links, and enquiry validation. Commit and push to main. Keep .env.local, temporary QA captures and build output out of Git. Curated project evidence images under `public/work/` are intentionally versioned.
 

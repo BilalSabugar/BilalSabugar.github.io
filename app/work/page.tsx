@@ -2,11 +2,15 @@ import { PortfolioShell, PageIntro, TextLink } from "@/components/PortfolioShell
 import { WorkIndex } from "@/components/WorkIndex";
 import { repositoryArchive, links } from "@/lib/portfolio";
 import { pageMetadata } from "@/lib/seo";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
+import { zero } from "@/lib/zero";
 import { CourseworkProject } from "@/components/CourseworkProject";
 
 export const metadata = pageMetadata("Work", "Explore Bilal Sabugar's robotics and software projects: Novexa, OSRS, RoboScout, WIRK, RecoverOS and Calm Pulse, with individual contributions and source links.", "/work/");
 export default function WorkPage() {
-  return <PortfolioShell><PageIntro label="Selected work / My contribution & the results" title="Robotics & software." intro="Physical robots, the software that controls them, and tools that make engineering work easier. Explore my contribution, the design decisions and what exists today." /><div className="profile-actions"><a className="quiet-link" href="#coursework">Coursework: T.H.O.M.A.S.</a><TextLink href="/company/">Company programs: S.L.A.B., Raven & VIER</TextLink></div><WorkIndex />
+  return <PortfolioShell><PageIntro label="Selected work / My contribution & the results" title="Robotics & software." intro="Physical robots, the software that controls them, and tools that make engineering work easier. Explore my contribution, the design decisions and what exists today." /><div className="profile-actions"><a className="quiet-link" href="#zero">Published app: Zero</a><a className="quiet-link" href="#coursework">Coursework: T.H.O.M.A.S.</a><TextLink href="/company/">Company programs: S.L.A.B., Raven & VIER</TextLink></div><WorkIndex />
+    <section id="zero" className="zero-feature section-space"><div className="section-heading"><div><p className="eyebrow">Published Android app</p><h2>Zero.</h2></div><p>{zero.tagline} A local-first toolkit with a media downloader, QR scanner, calculators, an encrypted biometric vault and 13+ offline games.</p></div><div className="zero-feature-links"><Link className="button-primary" href="/apps/zero/">View Zero<ArrowUpRight size={18} /></Link><Link className="button-secondary" href="/apps/zero/privacy/">Privacy Policy<ArrowUpRight size={18} /></Link></div></section>
     <CourseworkProject />
     <section className="repository-archive section-space"><div className="section-heading"><div><p className="eyebrow">Earlier work & smaller repositories</p><h2>More from the archive.</h2></div><p>Smaller applications and programming exercises. Browse the code on GitHub; the selected work above offers a closer look at my current interests.</p></div>{repositoryArchive.map(repo => <a href={`${links.github}/${repo.name}`} key={repo.name} target="_blank" rel="noreferrer"><span>{repo.name}</span><small>{repo.language}</small><span aria-hidden="true">↗</span></a>)}<TextLink href="/company/">Explore Aetheron Labs and its programs</TextLink></section>
   </PortfolioShell>;

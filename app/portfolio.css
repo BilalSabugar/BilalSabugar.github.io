@@ -527,3 +527,5 @@ html { scroll-behavior:smooth; scroll-padding-top:110px; }
 .policy-body code { font:500 13px var(--font-dm-mono),monospace; color:var(--accent); }
 .policy-body a { border-bottom:1px solid #ffffff50; }
 @media(max-width:760px) { .app-facts { grid-template-columns:1fr; } .app-features article { grid-template-columns:1fr; gap:8px; } }
+.zero-feature { border-top:1px solid var(--hairline); padding-top:60px; }
+.zero-feature-links { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }

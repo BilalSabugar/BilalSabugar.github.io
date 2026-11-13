@@ -2,7 +2,7 @@
 
 A research-led portfolio connecting robotics, control systems, software and public source material. Built with Next.js, React, Three.js and Framer Motion; exported to GitHub Pages.
 
-[Live portfolio](https://bilalsabugar.github.io/portfolio/) · [Public CV](https://bilalsabugar.github.io/portfolio/bilal-sabugar-resume.pdf)
+[Live portfolio](https://bilalsabugar.github.io/) · [Public CV](https://bilalsabugar.github.io/bilal-sabugar-resume.pdf)
 
 ## Structure
 

@@ -1,4 +1,4 @@
-export const siteUrl = "https://bilalsabugar.github.io/portfolio";
+export const siteUrl = "https://bilalsabugar.github.io";
 export const asset = (path: string) => `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}${path}`;
 export const reviewedOn = "2026-10-26";
 export const links = {
