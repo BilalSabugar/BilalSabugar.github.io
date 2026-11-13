@@ -7,7 +7,7 @@ export const swirlup = {
   contactEmail: "" as string,
   controllerName: "" as string,
   policyEffective: "13 November 2026",
-  klipyPrivacy: "https://klipy.com/privacy-policy",
+  klipySite: "https://klipy.com",
   firebasePrivacy: "https://firebase.google.com/support/privacy",
   features: [
     { title: "Posts, Shouts and Sizzles", points: [
@@ -26,7 +26,7 @@ export const swirlup = {
     ] },
     { title: "Private by design", points: [
       "End-to-end encrypted chats using the Signal-style X3DH and Double Ratchet protocol (X25519, XChaCha20-Poly1305). Media uses streaming encryption.",
-      "Messages are deleted from the server once delivered. Chat history lives only on your phone, in an encrypted database (SQLCipher).",
+      "Messages are deleted from the server once delivered, and undelivered ones after 30 days. Chat history lives only on your phone, in an encrypted database (SQLCipher).",
       "Safety numbers and QR verification let you confirm who you are talking to.",
       "One account on up to 5 linked phones. Each phone has its own keys, certified by an account key, and is linked by QR with a 6-digit pairing code.",
       "Peer-to-peer voice and video calls over WebRTC, with signed DTLS fingerprints so the server cannot intercept a call.",
