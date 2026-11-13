@@ -4,9 +4,8 @@ export const swirlup = {
   promise: "A social app where your feed follows your mood, your chats stay private, and you decide who sees what.",
   packageName: "com.novyex.swirlup",
   platform: "Android",
-  // TODO: fill in before publishing the policy to a store or API provider.
-  contactEmail: "" as string,
-  controllerName: "" as string,
+  contactEmail: "bilal.07.04.07@gmail.com" as string,
+  controllerName: "Bilal Sabugar" as string,
   policyEffective: "13 November 2026",
   klipySite: "https://klipy.com",
   firebasePrivacy: "https://firebase.google.com/support/privacy",
