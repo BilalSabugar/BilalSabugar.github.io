@@ -50,7 +50,7 @@ export const works: Work[] = [
     evidence: "Source code · 20-trial SIL results · Technical report",
     takeaway: "A useful robotics experiment needs more than a controller: it needs connected hardware, visible data and a way to repeat the test.",
     question: "How do you connect an experiment, its hardware and the data needed to understand it?",
-    role: "My credited responsibilities cover platform engineering, full-stack robotics and recursive least squares (RLS) identification—a method for estimating system behaviour from incoming data.",
+    role: "My credited responsibilities cover platform engineering, full-stack robotics and recursive least squares (RLS) identification, a method for estimating system behaviour from incoming data.",
     context: "Core engineering team: Bilal Sabugar, Aditya Jadav and Archie Veera. My June–July 2026 research internship at the IITGN Robotics Lab included the ball-balancing work. OSRS brings hardware, perception and MuJoCo simulation into a common software platform.",
     status: "Open-source research platform", stack: ["Python", "FastAPI", "React", "MuJoCo", "OpenCV", "Dynamixel"],
     repository: "https://github.com/TeamOSRS/OSRS", source: "https://github.com/TeamOSRS/OSRS/blob/main/AUTHORS.md",

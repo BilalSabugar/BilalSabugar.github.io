@@ -1,4 +1,4 @@
-# Bilal Sabugar — engineering portfolio
+# Bilal Sabugar - engineering portfolio
 
 A research-led portfolio connecting robotics, control systems, software and public source material. Built with Next.js, React, Three.js and Framer Motion; exported to GitHub Pages.
 

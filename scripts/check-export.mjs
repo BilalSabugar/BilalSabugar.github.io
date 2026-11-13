@@ -60,7 +60,7 @@ for (const url of urls) {
   }
 }
 if (new Set(urls).size !== urls.length) issues.push("sitemap: duplicate canonical URLs");
-if (urls.length !== 19) issues.push(`sitemap: expected 19 canonical URLs, found ${urls.length}`);
+if (urls.length !== 20) issues.push(`sitemap: expected 20 canonical URLs, found ${urls.length}`);
 for (const slug of ["portfolio", "novexa", "osrs", "roboscout", "wirk", "recoveros", "calm-pulse", "nook"]) {
   const image = path.join(root, "share", `${slug}.png`);
   if (!fs.existsSync(image)) { issues.push(`missing social image: ${slug}`); continue; }

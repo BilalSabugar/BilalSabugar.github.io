@@ -529,3 +529,7 @@ html { scroll-behavior:smooth; scroll-padding-top:110px; }
 @media(max-width:760px) { .app-facts { grid-template-columns:1fr; } .app-features article { grid-template-columns:1fr; gap:8px; } }
 .zero-feature { border-top:1px solid var(--hairline); padding-top:60px; }
 .zero-feature-links { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
+.app-screens { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; padding:48px 0 8px; }
+.app-screens figure { margin:0; }
+.app-screens img { display:block; width:100%; height:auto; border:1px solid var(--hairline); border-radius:24px; }
+@media(max-width:760px) { .app-screens { display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:16px; } .app-screens figure { flex:0 0 70%; scroll-snap-align:start; } }

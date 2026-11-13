@@ -60,7 +60,7 @@ function EnquiryForm({ initialIntent, initialProject }: { initialIntent: Contact
     data.set("email", email);
     data.set("brief", brief);
     const body = `${data.get("brief")}\n\nName: ${data.get("name")}\nReply to: ${data.get("email")}\nEnquiry: ${selected.label}\nTimeline: ${data.get("timeline") || "To discuss"}${project ? `\nPortfolio reference: ${project}` : ""}`;
-    const subject = `${selected.label}${project ? ` — ${project}` : ""}`;
+    const subject = `${selected.label}${project ? ` - ${project}` : ""}`;
     setDraft(`Subject: ${subject}\n\n${body}`);
     setEmailUrl(`mailto:${links.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`);
     setPrepared(true);

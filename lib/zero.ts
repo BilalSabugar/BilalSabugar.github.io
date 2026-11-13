@@ -4,13 +4,18 @@ export const zero = {
   packageName: "com.bilalsabugar.zero",
   developer: "Bilal Sabugar",
   platform: "Android (API 26+)",
-  design: "Samsung One UI 7 / Material Design 3 (OLED Dark Mode optimized)",
   email: "bilal.07.04.07@gmail.com",
   github: "https://github.com/BilalSabugar",
   // TODO: replace with the real Indus Appstore listing / APK URL once published.
   downloadUrl: "" as string,
   policyEffective: "13 November 2026",
+  termsEffective: "13 November 2026",
   unityPrivacy: "https://unity.com/legal/game-player-and-app-user-privacy-policy",
+  screenshots: [
+    { file: "/apps/zero/home.webp", alt: "Zero home screen with search, category tabs and pinned shortcuts" },
+    { file: "/apps/zero/video-downloader.webp", alt: "Zero video downloader with link field, auto-save to gallery and built-in browser options" },
+    { file: "/apps/zero/calculator.webp", alt: "Zero scientific calculator with trigonometry, logarithm and factorial keys" },
+  ],
   features: [
     { title: "Media & Video Downloader", points: [
       "High-speed parsing and local downloading of public videos, reels, and audio.",
@@ -28,10 +33,10 @@ export const zero = {
       "Multi-category metric & imperial unit converter.",
       "Expense & bill splitter, plus a Pomodoro productivity timer.",
     ] },
-    { title: "Biometric Security & Vault", points: [
-      "Android BiometricPrompt (fingerprint/face unlock) with 4-digit PIN fallback.",
-      "On-device encrypted password vault.",
-      "Encrypted private notes and checklist manager.",
+    { title: "App Lock & Vault", points: [
+      "Optional app lock using Android BiometricPrompt (fingerprint/face unlock) with a 4-digit PIN fallback.",
+      "On-device password vault, kept in the app private storage.",
+      "Private notes and checklist manager, stored only on your device.",
     ] },
     { title: "Offline Arcade (13+ Games)", points: [
       "Super Tic-Tac-Toe, 2048 Puzzle, Classic Tic-Tac-Toe (AI vs 2P), Minesweeper, Memory Match, Chess, Snake, Dino Run, and randomizers.",

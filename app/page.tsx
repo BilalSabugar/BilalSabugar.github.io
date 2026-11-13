@@ -8,7 +8,7 @@ import { JsonLd, pageMetadata } from "@/lib/seo";
 import { contactIntents } from "@/lib/contact";
 import { resumePath } from "@/lib/profile";
 
-export const metadata = { ...pageMetadata("Robotics & Product Engineering", "Robotics, control systems and software by Bilal Sabugar, co-founder and CTO of Aetheron Labs. Explore Novexa, OSRS, open-source projects and research.", "/"), title: { absolute: "Bilal Sabugar — Robotics & Product Engineering" } };
+export const metadata = { ...pageMetadata("Robotics & Product Engineering", "Robotics, control systems and software by Bilal Sabugar, co-founder and CTO of Aetheron Labs. Explore Novexa, OSRS, open-source projects and research.", "/"), title: { absolute: "Bilal Sabugar - Robotics & Product Engineering" } };
 
 export default function Home() {
   return <PortfolioShell>
