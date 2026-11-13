@@ -2,7 +2,7 @@ export const swirlup = {
   name: "SwirlUp",
   tagline: "Your vibe. Your circle. Your rules.",
   promise: "A social app where your feed follows your mood, your chats stay private, and you decide who sees what.",
-  packageName: "com.novyex.swirlup",
+  packageName: "com.bilalsabugar.swirlup",
   platform: "Android",
   contactEmail: "bilal.07.04.07@gmail.com" as string,
   controllerName: "Bilal Sabugar" as string,
@@ -39,6 +39,7 @@ export const swirlup = {
     "Our server does briefly see message metadata, such as who a message is for and when it was sent. The privacy policy spells out exactly what we store.",
   ],
   faq: [
+    { q: "Is SwirlUp free?", a: "Yes, SwirlUp is free." },
     { q: "Can SwirlUp read my messages?", a: "No. Message content is end-to-end encrypted, so only you and the person you are chatting with can read it." },
     { q: "Do you sell my data or track me for ads?", a: "No. We don't build an advertising profile of you, and your feed personalisation stays on your phone." },
     { q: "What data do you keep?", a: "A small amount, such as your account email, public profile and public posts, and brief message metadata. The full list is in the privacy policy." },

@@ -2,7 +2,7 @@ import { PortfolioShell, PageIntro, Breadcrumb } from "@/components/PortfolioShe
 import { pageMetadata } from "@/lib/seo";
 import { swirlup } from "@/lib/swirlup";
 
-export const metadata = pageMetadata("SwirlUp | Privacy Policy", "Privacy policy for SwirlUp (com.novyex.swirlup): what is stored, what is never collected, third-party services, encryption and account deletion.", "/apps/swirlup/privacy/");
+export const metadata = pageMetadata("SwirlUp | Privacy Policy", "Privacy policy for SwirlUp (com.bilalsabugar.swirlup): what is stored, what is never collected, third-party services, encryption and account deletion.", "/apps/swirlup/privacy/");
 
 const missing = "[to be added]";
 

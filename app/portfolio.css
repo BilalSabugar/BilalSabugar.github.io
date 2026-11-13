@@ -554,3 +554,4 @@ html { scroll-behavior:smooth; scroll-padding-top:110px; }
 .product-faq summary::after { content:"+"; float:right; color:var(--accent); }
 .product-faq details[open] summary::after { content:"\2212"; }
 .product-faq details p { color:#c9cdc5; margin:12px 0 0; }
+.app-free-note { margin:16px 0 0; font:400 11px/1.6 var(--font-dm-mono),monospace; letter-spacing:.1em; text-transform:uppercase; color:var(--subtle); }

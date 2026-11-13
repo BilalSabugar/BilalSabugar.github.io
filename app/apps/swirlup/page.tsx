@@ -19,6 +19,7 @@ export default function SwirlUpPage() {
         : <span className="button-secondary" aria-disabled="true">Coming soon to Android</span>}
       <Link className="button-secondary" href="/apps/swirlup/privacy/">Privacy Policy<ArrowUpRight size={18} /></Link>
     </div>
+    <p className="app-free-note">Free to use. No ads profile.</p>
 
     <section className="product-why section-space">
       <p className="eyebrow">Why SwirlUp exists</p>
