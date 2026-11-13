@@ -184,8 +184,8 @@ export const programs = [
 ] as const;
 
 export const repositoryArchive = [
-  { name: "video-downloader-api", language: "Python" }, { name: "python-mini-projects", language: "Python" },
-  { name: "NumberGame", language: "Python" }, { name: "TrueRecipes", language: "JavaScript" }, { name: "Book-Santa", language: "JavaScript" },
+  { name: "video-downloader-api", language: "Python" },
+  { name: "TrueRecipes", language: "JavaScript" }, { name: "Book-Santa", language: "JavaScript" },
 ];
 
 export const services = [
