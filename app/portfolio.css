@@ -555,3 +555,10 @@ html { scroll-behavior:smooth; scroll-padding-top:110px; }
 .product-faq details[open] summary::after { content:"\2212"; }
 .product-faq details p { color:#c9cdc5; margin:12px 0 0; }
 .app-free-note { margin:16px 0 0; font:400 11px/1.6 var(--font-dm-mono),monospace; letter-spacing:.1em; text-transform:uppercase; color:var(--subtle); }
+
+.install-steps { margin: 18px 0; padding-left: 22px; line-height: 1.7; }
+.install-steps li { margin-bottom: 10px; }
+.download-panel { margin: 24px 0; }
+.download-panel code { display: block; word-break: break-all; margin: 10px 0; font-family: var(--font-dm-mono), monospace; font-size: 13px; }
+.download-notes { white-space: pre-line; }
+.download-verify { margin-top: 28px; }

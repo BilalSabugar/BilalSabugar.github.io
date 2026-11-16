@@ -5,7 +5,7 @@ import { pageMetadata, JsonLd } from "@/lib/seo";
 import { swirlup } from "@/lib/swirlup";
 import { siteUrl } from "@/lib/portfolio";
 
-export const metadata = pageMetadata("SwirlUp | Your vibe. Your circle. Your rules.", "SwirlUp is a social app for Gen Z with mood-first feeds, truly private chats and calls, and no ads profile. Coming to Android.", "/apps/swirlup/");
+export const metadata = pageMetadata("SwirlUp | Your vibe. Your circle. Your rules.", "SwirlUp is a social app for Gen Z with mood-first feeds, truly private chats and calls, and no ads profile. Free for Android.", "/apps/swirlup/");
 
 export default function SwirlUpPage() {
   return <PortfolioShell>
@@ -14,9 +14,7 @@ export default function SwirlUpPage() {
     <Breadcrumb items={[{ label: "Apps" }, { label: "SwirlUp" }]} />
     <PageIntro label={`${swirlup.tagline} / ${swirlup.platform}`} title={`${swirlup.name}.`} intro={swirlup.promise} />
     <div className="app-actions app-hero-actions">
-      {swirlup.downloadUrl
-        ? <a className="button-primary" href={swirlup.downloadUrl} target="_blank" rel="noreferrer">Download for Android<Download size={18} /></a>
-        : <span className="button-secondary" aria-disabled="true">Coming soon to Android</span>}
+      <Link className="button-primary" href="/apps/swirlup/download/">Download for Android<Download size={18} /></Link>
       <Link className="button-secondary" href="/apps/swirlup/privacy/">Privacy Policy<ArrowUpRight size={18} /></Link>
     </div>
     <p className="app-free-note">Free to use. No ads profile.</p>
@@ -57,10 +55,10 @@ export default function SwirlUpPage() {
 
     <section className="case-conversation">
       <p className="eyebrow">Get SwirlUp</p>
-      <h2>{swirlup.downloadUrl ? "Ready when you are." : "Coming soon to Android."}</h2>
+      <h2>Ready when you are.</h2>
       <p>{swirlup.tagline}</p>
       <div className="app-actions app-hero-actions">
-        {swirlup.downloadUrl && <a className="button-primary" href={swirlup.downloadUrl} target="_blank" rel="noreferrer">Download for Android<Download size={18} /></a>}
+        <Link className="button-primary" href="/apps/swirlup/download/">Download for Android<Download size={18} /></Link>
         <Link className="button-secondary" href="/apps/swirlup/privacy/">Privacy Policy<ArrowUpRight size={18} /></Link>
         {swirlup.contactEmail
           ? <a className="button-secondary" href={`mailto:${swirlup.contactEmail}`}>Contact<Mail size={18} /></a>

@@ -9,8 +9,6 @@ export const swirlup = {
   policyEffective: "13 November 2026",
   klipySite: "https://klipy.com",
   firebasePrivacy: "https://firebase.google.com/support/privacy",
-  // Set when a store listing or APK exists.
-  downloadUrl: "" as string,
   why: [
     "Most social apps are built to hold your attention and learn everything about you, then sell that to advertisers. The feed decides how you feel. Your DMs can be read by the company. Your actual circle gets drowned out by strangers and algorithms.",
     "SwirlUp is a social app for Gen Z that hands the power back. Your feed is shaped by your mood and your taste, and what it learns about you stays on your phone. Your conversations are truly private. You control who sees what.",
@@ -43,6 +41,6 @@ export const swirlup = {
     { q: "Can SwirlUp read my messages?", a: "No. Message content is end-to-end encrypted, so only you and the person you are chatting with can read it." },
     { q: "Do you sell my data or track me for ads?", a: "No. We don't build an advertising profile of you, and your feed personalisation stays on your phone." },
     { q: "What data do you keep?", a: "A small amount, such as your account email, public profile and public posts, and brief message metadata. The full list is in the privacy policy." },
-    { q: "Is SwirlUp only on Android?", a: "For now, yes. SwirlUp is coming first to Android." },
+    { q: "Is SwirlUp only on Android?", a: "For now, yes. SwirlUp is a free direct download for Android and is not on Google Play." },
   ],
 };
